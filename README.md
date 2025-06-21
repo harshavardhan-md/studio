@@ -32,4 +32,34 @@ CampusConnect AI is a comprehensive platform designed to connect startups with i
   </picture>
 </a>
 
+<a href="https://campus-connect-ai.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/vercel.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/vercel.svg">
+    <img
+      height="32"
+      alt="View Live Demo"
+      src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/vercel.svg">
+  </picture>
+</a>
+
+<a href="https://github.com/harshavardhan-md/studio" target="_blank" rel="noopener noreferrer">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg">
+    <img
+      height="32"
+      alt="View GitHub Repo"
+      src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg">
+  </picture>
+</a>
+
 
