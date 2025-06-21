@@ -17,7 +17,7 @@ export default function InvestorsPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {investors.map((investor) => (
-            <Card key={investor.id} className="text-center overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col">
+            <Card key={investor.id} className="text-center overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
               <CardContent className="p-6 flex-grow flex flex-col">
                 <Image
                   data-ai-hint="person photo"

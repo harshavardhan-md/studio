@@ -72,10 +72,10 @@ export type Investor = {
 };
 
 export const investors: Investor[] = [
-  { id: '1', name: 'Olivia Chen', imageUrl: 'https://placehold.co/100x100.png', title: 'Managing Partner', firm: 'Momentum Ventures', focus: ['SaaS', 'FinTech'] },
-  { id: '2', name: 'Benjamin Carter', imageUrl: 'https://placehold.co/100x100.png', title: 'Angel Investor', firm: 'Self-funded', focus: ['EdTech', 'Future of Work'] },
-  { id: '3', name: 'Sophia Rodriguez', imageUrl: 'https://placehold.co/100x100.png', title: 'Principal', firm: 'Innovate Capital', focus: ['HealthTech', 'AI/ML'] },
-  { id: '4', name: 'Liam Goldberg', imageUrl: 'https://placehold.co/100x100.png', title: 'Associate', firm: 'NextGen Investors', focus: ['Consumer', 'Marketplaces'] },
+  { id: '1', name: 'Olivia Chen', imageUrl: 'https://placehold.co/120x120.png', title: 'Managing Partner', firm: 'Momentum Ventures', focus: ['SaaS', 'FinTech'] },
+  { id: '2', name: 'Benjamin Carter', imageUrl: 'https://placehold.co/120x120.png', title: 'Angel Investor', firm: 'Self-funded', focus: ['EdTech', 'Future of Work'] },
+  { id: '3', name: 'Sophia Rodriguez', imageUrl: 'https://placehold.co/120x120.png', title: 'Principal', firm: 'Innovate Capital', focus: ['HealthTech', 'AI/ML'] },
+  { id: '4', name: 'Liam Goldberg', imageUrl: 'https://placehold.co/120x120.png', title: 'Associate', firm: 'NextGen Investors', focus: ['Consumer', 'Marketplaces'] },
 ];
 
 export type CoFounderProfile = {
@@ -88,9 +88,9 @@ export type CoFounderProfile = {
 };
 
 export const cofounders: CoFounderProfile[] = [
-  { id: '1', name: 'Mark Chen', imageUrl: 'https://placehold.co/100x100.png', skills: ['Full-stack Dev', 'Python', 'React'], lookingFor: 'A business/marketing co-founder for a SaaS idea.', bio: 'Computer Science major with a passion for building scalable applications.' },
-  { id: '2', name: 'Isabelle Dubois', imageUrl: 'https://placehold.co/100x100.png', skills: ['Marketing', 'Branding', 'Growth Hacking'], lookingFor: 'A technical co-founder to build the future of e-commerce.', bio: 'Business student with experience in launching and scaling D2C brands.' },
-  { id: '3', name: 'Tom Schmidt', imageUrl: 'https://placehold.co/100x100.png', skills: ['Product Design', 'UI/UX', 'Figma'], lookingFor: 'A team for a mobile-first social networking app.', bio: 'Design student focused on creating intuitive and beautiful user experiences.' },
+  { id: '1', name: 'Mark Chen', imageUrl: 'https://placehold.co/120x120.png', skills: ['Full-stack Dev', 'Python', 'React'], lookingFor: 'A business/marketing co-founder for a SaaS idea.', bio: 'Computer Science major with a passion for building scalable applications.' },
+  { id: '2', name: 'Isabelle Dubois', imageUrl: 'https://placehold.co/120x120.png', skills: ['Marketing', 'Branding', 'Growth Hacking'], lookingFor: 'A technical co-founder to build the future of e-commerce.', bio: 'Business student with experience in launching and scaling D2C brands.' },
+  { id: '3', name: 'Tom Schmidt', imageUrl: 'https://placehold.co/120x120.png', skills: ['Product Design', 'UI/UX', 'Figma'], lookingFor: 'A team for a mobile-first social networking app.', bio: 'Design student focused on creating intuitive and beautiful user experiences.' },
 ];
 
 export type Resource = {

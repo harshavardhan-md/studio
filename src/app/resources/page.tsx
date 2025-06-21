@@ -26,7 +26,7 @@ export default function ResourcesPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {resources.map((resource) => (
-            <Card key={resource.id} className="overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col group">
+            <Card key={resource.id} className="overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col group">
                 <CardHeader>
                     <div className="flex justify-between items-center">
                         <div className="flex items-center gap-3">

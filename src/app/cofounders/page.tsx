@@ -17,15 +17,15 @@ export default function CofoundersPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {cofounders.map((profile) => (
-            <Card key={profile.id} className="overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col">
+            <Card key={profile.id} className="overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
               <CardContent className="p-6 flex-grow flex flex-col">
                 <div className="flex flex-col items-center text-center">
                   <Image
                     data-ai-hint="person photo"
                     src={profile.imageUrl}
                     alt={profile.name}
-                    width={100}
-                    height={100}
+                    width={120}
+                    height={120}
                     className="rounded-full border-4 border-secondary/20"
                   />
                   <h2 className="font-headline text-xl font-bold mt-4">{profile.name}</h2>

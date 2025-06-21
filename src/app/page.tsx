@@ -31,9 +31,9 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <main className="flex-1">
-        <section className="relative py-20 md:py-32 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+        <section className="relative py-20 md:py-32 bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-background dark:via-slate-900/50 dark:to-background">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="font-headline text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
+            <h1 className="font-headline text-4xl md:text-6xl font-bold text-gray-900 dark:text-foreground leading-tight">
               Where Student Ambition <br /> Meets Angel Investment
             </h1>
             <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -62,7 +62,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {features.map((feature, index) => (
-                <Card key={index} className="text-center shadow-md hover:shadow-xl transition-shadow duration-300">
+                <Card key={index} className="text-center shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
                   <CardHeader>
                     <div className="mx-auto bg-primary/10 rounded-full p-3 w-fit">
                       {feature.icon}
@@ -108,7 +108,7 @@ export default function Home() {
                 </Button>
               </div>
               <div className="relative h-96">
-                <Image src="https://placehold.co/600x400.png" alt="Startup collaboration" layout="fill" objectFit="cover" className="rounded-xl shadow-2xl" data-ai-hint="team collaboration" />
+                <Image src="https://placehold.co/600x400.png" alt="Startup collaboration" layout="fill" objectFit="cover" className="rounded-xl shadow-2xl" data-ai-hint="startup team meeting" />
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative h-96 order-last lg:order-first">
-                <Image src="https://placehold.co/600x400.png" alt="Investor network" layout="fill" objectFit="cover" className="rounded-xl shadow-2xl" data-ai-hint="financial growth" />
+                <Image src="https://placehold.co/600x400.png" alt="Investor network" layout="fill" objectFit="cover" className="rounded-xl shadow-2xl" data-ai-hint="investment chart graph" />
               </div>
               <div className="order-first lg:order-last">
                 <span className="text-secondary font-semibold">FOR INVESTORS</span>
