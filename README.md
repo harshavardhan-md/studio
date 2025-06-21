@@ -7,8 +7,9 @@
 *Empowering the next generation of entrepreneurs through AI-powered connections*
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-0070f3?style=for-the-badge&logo=vercel&logoColor=white)](https://campus-connect-ai.vercel.app/)
-[![GitHub](https://img.shields.io/badge/📂_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/harshavardhan-md/studio)
-<a href="https://studio.firebase.google.com/import?url=https%3A%2F%2Fgithub.com%2Fharshavardhan-md%2Fstudio">
+[![GitHub](https://img.shields.io/badge/📂_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/harshavardhan-md/CampusConnectAI)
+
+<a href="https://studio.firebase.google.com/import?url=https%3A%2F%2Fgithub.com%2Fharshavardhan-md%2FCampusConnectAI">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
